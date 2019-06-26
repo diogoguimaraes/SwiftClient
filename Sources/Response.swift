@@ -19,13 +19,13 @@ open class Response{
     open var type: String?;
     open var charset: String?;
     
-    open let error: Bool;
+    public let error: Bool;
     
     open var status: ResponseType
-    open let statusCode: Int
-    open let basicStatus: BasicResponseType
+    public let statusCode: Int
+    public let basicStatus: BasicResponseType
     
-    open let request:Request;
+    public let request:Request;
     
     open var headers: [String : String];
     
